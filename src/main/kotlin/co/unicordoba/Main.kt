@@ -10,6 +10,8 @@ class MainApp : App(HomeView::class) {
         super.start(stage)
         stage.isFullScreen = true
     }
+
+
 }
 fun main(args: Array<String>) {
     Application.launch(MainApp::class.java, *args)

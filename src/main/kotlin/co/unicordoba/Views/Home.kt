@@ -5,10 +5,12 @@ import co.unicordoba.Helpers.parseFileToQueue
 import javafx.animation.Animation
 import javafx.animation.KeyFrame
 import javafx.animation.Timeline
+import javafx.application.Platform
 import javafx.event.EventHandler
 import javafx.scene.control.Label
 import javafx.scene.image.Image
 import javafx.scene.image.ImageView
+import javafx.scene.input.KeyCombination
 import javafx.scene.layout.HBox
 import javafx.scene.layout.VBox
 import javafx.scene.shape.SVGPath
@@ -52,5 +54,13 @@ class HomeView : View() {
         )
         clock.cycleCount = Animation.INDEFINITE
         clock.play()
+
+        // Clse
+        primaryStage.scene.accelerators.put(
+                KeyCombination.keyCombination("CTRL+C"), Runnable {
+                    Platform.exit()
+                }
+        )
+
     }
 }
