@@ -47,7 +47,10 @@ class HomeView : View() {
 
         val clock = Timeline(KeyFrame(Duration.ZERO, EventHandler {
             val cal = Calendar.getInstance()
-            val str = SimpleDateFormat("hh:mm a").format(cal.time)
+            val sdf = SimpleDateFormat("hh:mm a")
+            sdf.timeZone = TimeZone.getTimeZone("America/Bogota")
+            val str = sdf.format(cal.time)
+
             timer.text = str.toLowerCase()
         }),
                 KeyFrame(Duration.seconds(1.0))
