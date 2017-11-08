@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Monitor.jnlp">
+  <information>
+    <title>Monitor</title>
+    <vendor>Unknown</vendor>
+    <description>Monitor</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Monitor.jar" size="5359397" download="eager" />
+    <jar href="annotations-13.0.jar" size="17536" download="eager" />
+    <jar href="commons-pool2-2.4.2.jar" size="111969" download="eager" />
+    <jar href="fpm10-fingerprint-sensor-0.0.2-SNAPSHOT.jar" size="26780" download="eager" />
+    <jar href="javax.json-1.0.4.jar" size="85147" download="eager" />
+    <jar href="jedis-2.9.0.jar" size="553762" download="eager" />
+    <jar href="kotlin-compiler-1.1.4-3.jar" size="28336046" download="eager" />
+    <jar href="kotlin-reflect-1.1.4-3.jar" size="2441591" download="eager" />
+    <jar href="kotlin-stdlib-1.1.51.jar" size="882423" download="eager" />
+    <jar href="kotlin-stdlib-jre7-1.1.4-3.jar" size="2843" download="eager" />
+    <jar href="kotlin-stdlib-jre8-1.1.4-3.jar" size="11511" download="eager" />
+    <jar href="tornadofx-1.7.11.jar" size="2312042" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="co.unicordoba.MainApp"  name="Monitor" />
+  <update check="background"/>
+</jnlp>
