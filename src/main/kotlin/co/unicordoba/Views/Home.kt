@@ -55,12 +55,12 @@ class HomeView : View() {
         clock.cycleCount = Animation.INDEFINITE
         clock.play()
 
-        // Clse
+        /*
         primaryStage.scene.accelerators.put(
-                KeyCombination.keyCombination("CTRL+C"), Runnable {
-                    Platform.exit()
-                }
+                KeyCombination.keyCombination("CTRL+C"),
+                Runnable { Platform.exit() }
         )
+        */
 
     }
 }
