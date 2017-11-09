@@ -23,15 +23,20 @@ import java.util.*
 
 class HomeView : View() {
     override val root : HBox by fxml("/Views/home.fxml")
+
+    // Properties
     private val image: ImageView by fxid("image")
     private val box: VBox by fxid("box")
     private val timer: Label by fxid("timer")
     private val finger: SVGPath by fxid("fingerprintSvg")
+    private val titulo: Label by fxid("titulo")
 
 
     init {
 
         val queue = parseFileToQueue()
+
+        titulo.prefWidthProperty().bind(box.widthProperty())
 
         //root.prefHeightProperty().bind(primaryStage.maxHeightProperty())
         image.fitWidthProperty().bind(root.widthProperty() * 0.70)
