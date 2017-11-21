@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Open Sans';
-    src: url('/Fonts/OpenSans-Regular.ttf');
-}
-
-*{
-    -fx-font-family: 'Open Sans';
-    -fx-text-fill: '#ffffff';
-}

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="fpm10-fingerprint-sensor-0.0.2-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/FPM10FingerprintSensor-master/main/target/fpm10-fingerprint-sensor-0.0.2-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
