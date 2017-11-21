@@ -5,3 +5,6 @@ target/
 *.iml
 src/main/kotlin/jajaj/
 .DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
