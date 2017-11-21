@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: tornadofx-1.7.11.jar javax.json-1.0.4.jar fpm10-fingerprin
+ t-sensor-0.0.2-SNAPSHOT.jar org.eclipse.paho.client.mqttv3-1.1.0.jar 
+ kotlin-compiler-1.1.4-3.jar kotlin-stdlib-1.1.51.jar kotlin-stdlib-jr
+ e7-1.1.4-3.jar kotlin-stdlib-jre8-1.1.4-3.jar annotations-13.0.jar ko
+ tlin-reflect-1.1.4-3.jar
+Main-Class: co.unicordoba.MainKt
+

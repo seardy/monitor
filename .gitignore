@@ -1,0 +1,6 @@
+/out
+.idea/
+out/
+target/
+*.iml
+src/main/kotlin/jajaj/
