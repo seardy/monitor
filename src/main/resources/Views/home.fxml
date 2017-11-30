@@ -29,42 +29,31 @@
                </VBox.margin>
             </Label>
             <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="464.0" style="-fx-font-size: 1.5em;" textAlignment="CENTER" textFill="WHITE" />
-            <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="464.0" style="-fx-font-size: 1.7em;" textAlignment="CENTER" textFill="WHITE" />
-            <HBox prefHeight="83.0" prefWidth="399.0">
-               <VBox.margin>
-                  <Insets top="80.0" />
-               </VBox.margin>
+            <Label fx:id="status" alignment="CENTER" contentDisplay="CENTER" prefHeight="31.0" prefWidth="464.0" style="-fx-font-size: 1.3em;" textAlignment="CENTER" textFill="WHITE" />
+            <VBox prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <ImageView fitHeight="74.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../Images/unicordoba.white.png" />
-                     </image>
-                  </ImageView>
-                  <VBox prefHeight="83.0" prefWidth="315.0">
-                     <children>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="285.0" text="Desarrollado por" textFill="WHITE">
-                           <font>
-                              <Font size="16.0" />
-                           </font>
-                           <VBox.margin>
-                              <Insets top="10.0" />
-                           </VBox.margin>
-                        </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="308.0" text="S. Arteaga, A. Cuadrado, D. Aicardy, J. Espinosa" textFill="WHITE">
-                           <font>
-                              <Font size="12.0" />
-                           </font>
-                           <VBox.margin>
-                              <Insets top="6.0" />
-                           </VBox.margin>
-                        </Label>
-                     </children>
-                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="43.0" prefWidth="399.0" />
+                  <Label alignment="CENTER" prefHeight="20.0" prefWidth="422.0" text="Desarrollado por" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="20.0" prefWidth="419.0" text="S. Arteaga, A. Cuadrado, D. Aicardy, J. Espinosa" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="6.0" />
+                     </VBox.margin>
+                  </Label>
                </children>
                <padding>
-                  <Insets left="30.0" />
+                  <Insets top="40.0" />
                </padding>
-            </HBox>
+            </VBox>
          </children></VBox>
       </children>
 </HBox>
